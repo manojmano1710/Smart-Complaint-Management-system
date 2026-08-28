@@ -1,0 +1,133 @@
+.top-navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+.search-box{
+
+    width:350px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    background:#161B22;
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+    border:1px solid #30363d;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+    border:none !important;
+
+    background:transparent !important;
+
+    outline:none !important;
+
+    color:white !important;
+
+}
+
+.search-box svg{
+
+    color:#9CA3AF;
+
+}
+
+.nav-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+.notification{
+
+    position:relative;
+
+    font-size:24px;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+.notification span{
+
+    position:absolute;
+
+    top:-8px;
+
+    right:-8px;
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+
+    background:red;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:11px;
+
+}
+
+.profile{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.profile svg{
+
+    font-size:45px;
+
+    color:#3B82F6;
+
+}
+
+.profile h5{
+
+    margin:0;
+
+    color:white;
+
+}
+
+.profile small{
+
+    color:#9CA3AF;
+
+}

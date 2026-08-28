@@ -1,0 +1,83 @@
+.activity-card{
+
+    margin-top:40px;
+
+    background:#161B22;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    border:1px solid #30363d;
+
+}
+
+.activity-card h2{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.activity-item{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:15px 0;
+
+    border-bottom:1px solid #30363d;
+
+}
+
+.activity-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.activity-dot{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+    background:#3B82F6;
+
+    margin-right:15px;
+
+}
+
+.activity-item h4{
+
+    color:white;
+
+    margin:0;
+
+    font-size:16px;
+
+}
+
+.activity-item p{
+
+    color:#9CA3AF;
+
+    margin:2px 0 0;
+
+    font-size:13px;
+
+}
+
+.activity-item span{
+
+    color:#22C55E;
+
+    font-weight:600;
+
+}

@@ -1,0 +1,235 @@
+.profile-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:40px;
+
+}
+
+.profile-card{
+
+    width:700px;
+
+    background:#161B22;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.4);
+
+}
+
+.profile-header{
+
+    background:linear-gradient(135deg,#2563EB,#7C3AED);
+
+    padding:40px;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.profile-avatar{
+
+    font-size:90px;
+
+    margin-bottom:15px;
+
+}
+
+.profile-header h2{
+
+    margin:0;
+
+    font-size:34px;
+
+}
+
+.profile-header p{
+
+    color:#E5E7EB;
+
+}
+
+.profile-details{
+
+    padding:35px;
+
+}
+
+.profile-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:20px 0;
+
+    border-bottom:1px solid #30363d;
+
+}
+
+.profile-item:last-child{
+
+    border:none;
+
+}
+
+.profile-item svg{
+
+    font-size:28px;
+
+    color:#3B82F6;
+
+}
+
+.profile-item label{
+
+    display:block;
+
+    color:#9CA3AF;
+
+    font-size:14px;
+
+}
+
+.profile-item span{
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.profile-actions{
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:30px;
+
+}
+
+.edit-btn{
+
+    background:linear-gradient(135deg,#2563EB,#7C3AED);
+
+    color:white;
+
+    border:none;
+
+    padding:14px 40px;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}.modal-bg{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.55);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:999;
+
+}
+
+.edit-modal{
+
+    width:450px;
+
+    background:#161B22;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    color:white;
+
+}
+
+.edit-modal h2{
+
+    margin-bottom:25px;
+
+    text-align:center;
+
+}
+
+.edit-modal input{
+
+    width:100%;
+
+    margin-bottom:18px;
+
+}
+
+.modal-buttons{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:20px;
+
+}
+
+.save-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:12px 35px;
+
+    border:none;
+
+    border-radius:10px;
+
+}
+
+.cancel-btn{
+
+    background:#EF4444;
+
+    color:white;
+
+    padding:12px 35px;
+
+    border:none;
+
+    border-radius:10px;
+
+}
+
+.edit-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 25px rgba(37,99,235,.35);
+
+}

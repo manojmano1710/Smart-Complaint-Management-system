@@ -1,0 +1,22 @@
+# Node
+node_modules/
+
+# Java / Maven
+backend/target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets
+.env
+
+# Logs
+*.log

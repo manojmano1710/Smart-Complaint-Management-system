@@ -1,0 +1,25 @@
+.category-chart{
+
+    margin-top:40px;
+
+    background:#161B22;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    border:1px solid #30363d;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+.category-chart h2{
+
+    color:white;
+
+    margin-bottom:20px;
+
+    font-size:24px;
+
+}

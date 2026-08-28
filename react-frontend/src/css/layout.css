@@ -1,0 +1,19 @@
+.layout{
+    display: flex;
+    min-height: 100vh;
+    background: #0D1117;
+}
+
+.content{
+    margin-left: 260px;
+    width: calc(100% - 260px);
+
+    min-height: 100vh;
+    overflow-y: auto;
+
+    padding: 35px;
+}
+
+.page{
+    width: 100%;
+}

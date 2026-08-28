@@ -1,0 +1,100 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#0D1117;
+    color:#F8FAFC;
+
+    overflow-x:hidden;
+    overflow-y:auto;
+
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button{
+
+    cursor:pointer;
+    border:none;
+
+}
+
+input,
+textarea,
+select{
+
+    background:#161B22;
+    color:white;
+
+    border:1px solid #30363d;
+
+    border-radius:10px;
+
+    padding:12px;
+
+    outline:none;
+
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    border-color:#3B82F6;
+
+    box-shadow:0 0 10px rgba(59,130,246,.4);
+
+}
+
+.card-dark{
+
+    background:#161B22;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    border:1px solid #30363d;
+
+    transition:.3s;
+
+}
+
+.card-dark:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+
+}
+
+.primary-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.primary-btn:hover{
+
+    background:#3B82F6;
+
+}

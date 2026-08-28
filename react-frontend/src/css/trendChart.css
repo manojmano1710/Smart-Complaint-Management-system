@@ -1,0 +1,23 @@
+.trend-chart{
+
+    margin-top:40px;
+
+    background:#161B22;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    border:1px solid #30363d;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+.trend-chart h2{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
